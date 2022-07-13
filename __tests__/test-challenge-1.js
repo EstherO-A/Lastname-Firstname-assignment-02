@@ -1,6 +1,7 @@
 const assignment = require('../src/assignment.js');
 
 const { sumOfNumbers } = assignment;
+
 const maybe = sumOfNumbers === undefined ? test.skip : test;
 
 maybe('Challenge - 1 : my sumNumbers function can sum an array of numbers', () => {

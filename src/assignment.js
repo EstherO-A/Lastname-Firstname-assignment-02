@@ -21,6 +21,9 @@ function sumOfNumbers(arrayOfNumbers) {
   return sum;
 }
 
+assignment.sumOfNumbers = sumOfNumbers;
+
+
 /**
  * Challenge - 2
  * 
@@ -40,6 +43,7 @@ function countEvenNumbers(arrayOfNumbers) {
   return count;
 }
 
+assignment.countEvenNumbers = countEvenNumbers;
 
 
 /**
@@ -58,12 +62,13 @@ function countEvenNumbers(arrayOfNumbers) {
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
   for (let index = 0; index < arrayOfNumbers.length; index++) {
-    arrayOfNumbers[index] = Math.trunc(arrayOfNumbers[index] * (9/5)) + 32
+    arrayOfNumbers[index] = Math.trunc((arrayOfNumbers[index] * (9/5)) + 32)
   }
   
     return arrayOfNumbers;
 }
 
+assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
